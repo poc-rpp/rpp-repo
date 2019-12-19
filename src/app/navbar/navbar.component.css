@@ -13,6 +13,14 @@
         float: none;
        
     } */
+    #txt1{
+        font-size:14px;
+        line-height:24px;
+       }
+       .material-icons{
+           display: inline-flex;
+           vertical-align: top;
+       }
      #ip3:hover{
        
         box-shadow: 0px 5px 11px;
@@ -22,16 +30,18 @@
         
         
     }
-    a:active {
+    /* a:active {
         background-color: #73AD21
-      }
+      } */
     .navbar-header{
         
         color: white;
-        font-size: larger;
-        font-style: italic
+        font-size: large;
+       
     }
-   
+   .nav-link{
+       color:white
+   }
  img{
    height: 40px;
   }
@@ -43,3 +53,14 @@
              text-shadow: 2px 2px gray 
           }
           
+          .mat-raised-button:focus {
+            outline:0;
+        
+        }
+        .mat-raised-button:hover{
+           
+            background-color: rgb(23, 160, 214) 
+        } 
+        .material-icons{
+        color:green
+        }
